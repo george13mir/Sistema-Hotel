@@ -94,6 +94,7 @@ class Reserva(models.Model):
     estado = models.CharField(
         max_length=20,
         default="Reservada"
+        
     )
 
     def __str__(self):

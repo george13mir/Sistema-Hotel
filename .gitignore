@@ -1,0 +1,39 @@
+# Dependencias Node.js
+node_modules/
+**/node_modules/
+
+# Entornos virtuales Python
+.venv/
+**/.venv/
+env/
+**/env/
+venv/
+**/venv/
+
+# Archivos privados
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Base de datos local
+db.sqlite3
+**/db.sqlite3
+
+# Caché Python
+__pycache__/
+*.pyc
+
+# Expo
+.expo/
+**/.expo/
+
+# Archivos generados
+dist/
+build/
+*.log
+
+# Archivos locales
+.vscode/
